@@ -1,0 +1,17 @@
+node_modules/
+release/
+dist/
+参考旧项目/
+ffmpeg/
+data/projects/
+.venv/
+src/chrome/
+node_modules/
+hyperframes/
+data/
+PPT2VIDEO/
+node_modules/
+release/
+dist/
+data/
+src/
