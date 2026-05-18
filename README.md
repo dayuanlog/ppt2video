@@ -2,6 +2,17 @@
 
 画个视频 - HTML 格式 PPT 转视频编辑器
 
+## 相关链接
+
+### 官方网址：[ppt.neirongpai.com](https://ppt.neirongpai.com/)
+
+### 文档教程：[feishu.cn](https://gcnmglnmucfp.feishu.cn/wiki/DFc8wRK3eifzdWk6C3Fc6veCnjb)
+
+### SKILL：[ppt2video-skill](https://github.com/dayuanlog/ppt2video-skill)
+
+
+---
+
 ## 功能特性
 
 - **场景编辑** — 导入 HTML 文件作为场景，支持拖拽排序
