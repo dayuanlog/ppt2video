@@ -9,12 +9,10 @@ description: 使用 HyperFrames 生成带 GSAP 动画的独立 HTML 视频 PPT s
 
 这个 skill 的目标是把文章或口播稿转成可渲染的视频 PPT HTML，而不是把文章切成字幕页。
 
-默认只维护两个中间文件：
+默认维护两个中间文件：
 
 - `structure-proposal.md`：页级结构确认稿，也是后续 HTML 的设计依据。
 - `script.txt`：口播分行文件，每一行严格对应一个 `scene-XX.html`。
-
-不要默认生成旧流程里的 `outline.md`、`subtitle-scene-map.md`、`scene-design-plan.md`。这些文件的信息会合并进 `structure-proposal.md`。只有当用户明确说要兼容旧管线、字幕映射表或独立设计计划时，才额外生成。
 
 ---
 
@@ -26,7 +24,7 @@ description: 使用 HyperFrames 生成带 GSAP 动画的独立 HTML 视频 PPT s
    - `theme-previews/all-themes-vertical.html` 是主题预览入口。
    - `theme-previews/<theme-name>/scene-*.html` 是真实样式参考。
    - `references/` 只作为规则护栏和提炼总结使用，优先级低于所选主题目录中的真实 HTML。
-2. **用户自定义风格**：用户可以直接描述想要的视觉风格、色彩、版式、气质、参考对象或行业感。
+2. **用户自定义风格**：用户可以直接描述想要的尺寸、视觉风格、色彩、版式、气质、参考对象或行业感。
    - 自定义风格只影响具体视觉设计，不改变 `structure-proposal.md`、`script.txt`、scene 映射、HyperFrames 结构和校验规则。
    - 自定义风格也必须遵守 `references/` 中的布局、排版、动效、图片和渲染安全护栏。
 
@@ -81,8 +79,8 @@ description: 使用 HyperFrames 生成带 GSAP 动画的独立 HTML 视频 PPT s
 | 尺寸 | 比例 | 适用 |
 |---|---|---|
 | `1080 x 1440` | 3:4 | 当前 `theme-previews` 竖屏主题默认尺寸 |
-| `720 x 1280` | 9:16 | 短视频竖屏 |
-| `1280 x 720` | 16:9 | 横屏讲解或长视频 |
+| `1080 x 1920` | 9:16 | 短视频竖屏 |
+| `1920 x 1080` | 16:9 | 横屏讲解或长视频 |
 | `1080 x 1080` | 1:1 | 方图视频 |
 
 如果用户提到 `theme-previews/all-themes-vertical.html`、竖屏参考模板、现成竖屏主题，默认优先使用 `1080 x 1440`。
