@@ -46,7 +46,3 @@
 - Hono 文件服务
 - MiniMax TTS API
 
-## 联系我们
-
-- 官网：https://ppt.neirongpai.com
-- 问题反馈：https://github.com/dayuanlog/ppt2video/issues
